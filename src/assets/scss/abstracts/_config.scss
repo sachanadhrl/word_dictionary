@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  @apply w-full h-screen flex justify-center items-center font-roboto font-light text-slate-700;
+}
+
+#app {
+  @apply w-full h-screen md:w-96 md:h-[640px] relative md:rounded-xl md:shadow-xl overflow-y-auto;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-abril;
+
+  &.oswald {
+    @apply font-oswald font-medium;
+  }
+}
+
+h1 {
+  @apply text-3xl;
+}
+h2 {
+  @apply text-2xl;
+}
+h3 {
+  @apply text-lg;
+}

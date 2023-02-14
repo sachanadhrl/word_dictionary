@@ -1,0 +1,11 @@
+.btn {
+  @apply min-h-fit h-fit py-1;
+  &-link {
+    @apply text-sky-500 no-underline capitalize px-0;
+
+    svg {
+      @apply w-4 h-4 mr-1.5;
+    }
+  }
+
+}
