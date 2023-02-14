@@ -17,7 +17,6 @@ const store = createStore({
         setTimeout(() => {
           commit("GET_WORD", word.data)
         }, 2000)
-        console.log(word.data)
       } catch (err) {
         throw err.response.data
       }
